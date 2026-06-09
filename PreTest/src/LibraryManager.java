@@ -51,7 +51,7 @@ class LayananPengembalian {
     public LayananPengembalian(PenghitungDenda penghitung, PencetakStruk pencetak) {
         this.penghitung = penghitung;
         this.pencetak = pencetak;
-    }
+    }                                                                  
 
     public void prosesPengembalian(String namaPeminjam, int hariTerlambat) {
         System.out.println("Memproses pengembalian buku atas nama: " + namaPeminjam);
